@@ -1,0 +1,44 @@
+Fonte:
+
+Doador: 
+
+Steven Salzberg ( salzberg '@' cs.jhu.edu ) 
+
+Colecionador: 
+
+Dr. Evlin Kinney 
+O Instituto Reed 
+PO Box 402603 
+Maimi, FL 33140-0603
+
+
+Informações do conjunto de dados:
+
+Todos os pacientes sofreram ataques cardíacos em algum momento no passado. Alguns ainda estão vivos e outros não. As variáveis ??sobrevivência e ainda viva, quando consideradas em conjunto, indicam se um paciente sobreviveu por pelo menos um ano após o ataque cardíaco. 
+
+O problema abordado pelos pesquisadores anteriores foi prever, a partir das outras variáveis, se o paciente sobreviveria pelo menos um ano. A parte mais difícil desse problema é prever corretamente que o paciente NÃO sobreviverá. (Parte da dificuldade parece ser o tamanho do conjunto de dados.)
+
+
+Informações sobre Atributos:
+
+1. sobrevivência - o número de meses de paciente sobreviveu (sobreviveu, se o paciente ainda estiver vivo). Como todos os pacientes tiveram seus ataques cardíacos em momentos diferentes, é possível que alguns pacientes tenham sobrevivido menos de um ano, mas ainda estejam vivos. Verifique a segunda variável para confirmar isso. Esses pacientes não podem ser usados ??para a tarefa de previsão mencionada acima. 
+2. ainda vivo - uma variável binária. 0 = morto no final do período de sobrevivência, 1 significa ainda vivo 
+3. ataque de ataque cardíaco - idade em anos em que ocorreu ataque cardíaco 
+4. derrame pericárdico - binário. O derrame pericárdico é fluido ao redor do coração. 0 = sem fluido, 1 = fluido 
+5. fracionado-encurtamento - uma medida de contracilidade ao redor do coração números mais baixos são cada vez mais anormais 
+6. epss - Separação septal do ponto E, outra medida de contratilidade. Números maiores são cada vez mais anormais. 
+7. lvdd - dimensão diastólica final do ventrículo esquerdo. Esta é uma medida do tamanho do coração na diástole final. Corações grandes tendem a ser corações doentes. 
+8. wall-motion-score - uma medida de como os segmentos do ventrículo esquerdo estão se movendo. 
+9. wall-motion-index - igual a wall-motion-score dividido pelo número de segmentos vistos. Normalmente 12-13 segmentos são vistos em um ecocardiograma. Use esta variável INSTEAD da pontuação de movimento da parede. 
+10. mult-um derivado var que pode ser ignorado 
+11. nome - o nome do paciente (eu substituí-los com "nome") 
+12. grupo - sem sentido, ignorá-lo 
+13. vivo-em-1 - valor booleano. Derivado dos dois primeiros atributos. 0 significa que o paciente estava morto após 1 ano ou foi seguido por menos de 1 ano. 1 significa que o paciente estava vivo em 1 ano.
+
+
+Artigos relevantes:
+
+Salzberg, S. (1988). Aprendizagem baseada em exemplos: teoria e implementação (Relatório Técnico TR-10-88). Universidade de Harvard, Centro de Pesquisa em Tecnologia de Computação, Laboratório de Computação Aiken (33 Oxford Street; Cambridge, MA 02138). 
+[Web Link] 
+
+Kan, G., Visser, C., Kooler, J. e Dunning, A. (1986). Curto e longo prazo valor preditivo do escore de movimento de parede no infarto agudo do miocárdio. British Heart Journal, 56, 422-427.
